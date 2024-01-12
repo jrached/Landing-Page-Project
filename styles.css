@@ -10,6 +10,14 @@ body {
     font-size: smaller;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
 /* /////////////////////////////Header///////////////////////////////// */
 
 .header {
@@ -72,7 +80,8 @@ body {
 
 .header .bottom .left .subtitle {
     font-size: 18px;
-    color: #e5e7eb; 
+    color: #e5e7eb;
+    margin-bottom: 10px; 
 }
 
 .header .bottom .left .signup {
@@ -81,6 +90,7 @@ body {
     border-radius: 5px;
     width: 100px;
     height: 30px;
+    font-size: 16px;
     font-weight: 700;
     text-align: center;
 }
@@ -124,12 +134,21 @@ body {
 }
 
 .content .top .boxes .boxwrap .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 4px solid #3882f6;
     border-radius: 10px;
     width: 150px;
     height: 150px;
     flex-grow: 0;
     flex-shrink: 1;
+}
+
+.box img {
+    width: 145px;
+    height: 145px;
+    border-radius: 10px;
 }
 
 
