@@ -81,11 +81,12 @@ button:active, .boxwrap a:active {
 /* Header Bottom */
 .header .bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
     max-width: 100%;
+    flex-wrap: wrap;
 }
 .header .bottom .left {
     display: flex;
@@ -97,6 +98,7 @@ button:active, .boxwrap a:active {
     flex-grow: 1;
     flex-shrink: 1;
     min-width: 200px;
+    max-width: 350px;
 }
 
 .header .bottom .left .title {
@@ -128,19 +130,18 @@ button:active, .boxwrap a:active {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    width: 100%;
+    width: 50%;
     flex-grow: 1;
     flex-shrink: 1;
+    max-width: 300px;
 }
 
 .coco {
-    width: 30%;
     height: auto;
     flex-grow: 1;
     flex-shrink: 1;
     min-width: 200px;
-    max-width: 400px;
-
+    width: 30%;
 }
 
 /* //////////////////////////Content/////////////////////////////////// */
@@ -160,8 +161,7 @@ button:active, .boxwrap a:active {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 250px;
-    height: 600px;
+    min-height: 550px;
 }
 
 .content .top .title {
@@ -252,18 +252,19 @@ button:active, .boxwrap a:active {
 .content .bottom .popup {
     background-color: #3882f6;
     display: flex;
-    justify-items: space-evenly;
+    justify-items: center;
     align-items: center;
     border-radius: 5px;
-    min-width: 375px;
     margin-left: 150px;
     margin-right: 150px;
     padding: 45px;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .content .bottom .popup .wrapper {
     min-width: 200px;
+    max-width: 350px;
 }
 
 .content .bottom .popup .wrapper .text {
