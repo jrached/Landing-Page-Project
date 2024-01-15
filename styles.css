@@ -161,11 +161,12 @@ button:active, .boxwrap a:active {
 .content .top {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     min-height: 550px;
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 80px;
 }
 
 .content .top .title {
