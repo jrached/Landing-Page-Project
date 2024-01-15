@@ -164,7 +164,7 @@ button:active, .boxwrap a:active {
     justify-content: center;
     align-items: center;
     min-height: 550px;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 50px;
     gap: 80px;
 }
